@@ -9,3 +9,8 @@
 6. The flow log file size can be up to 10 MB.
 7. The lookup file can have up to 10,000 mappings.
 8. The tags can map to more than one port, protocol combinations.
+
+
+STEPS:
+1. Generate Flow_logs running, "python3 generate_flow_log.py"
+2. Run the main program by, "python3 parseScript.py" to generate the output.txt file.
